@@ -9,7 +9,7 @@ public class BusinessLogic {
 
 		NotificationService nontificationService = new NotificationService();
 		maap.process(nontificationService);
-			
+		
 		nontificationService.notifyUser();
 	}
 }
