@@ -44,7 +44,7 @@ public class FirstNonRepeatingCharacter {
 		for (Character c : str.toCharArray()) {
 			Integer val = map.getOrDefault(c, 0);
 			map.put(c, val + 1);
-		}
+		}		
 
 		// find entry with value 1
 		return map.entrySet().stream()
