@@ -57,6 +57,7 @@ public class ForkJoin {
 		return sum;
 	}
 
+	// Use RecursiveAction for methods not  returning anything
 	public static class SummerTask extends RecursiveTask<Integer> {
 
 		private int[] arr;
