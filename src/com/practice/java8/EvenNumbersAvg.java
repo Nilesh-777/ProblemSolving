@@ -11,7 +11,7 @@ public class EvenNumbersAvg {
 			.mapToInt(Integer::valueOf)
 			.average()
 			.orElse(0d);
-		
+
 		System.out.println(avg);
 	}
 }
