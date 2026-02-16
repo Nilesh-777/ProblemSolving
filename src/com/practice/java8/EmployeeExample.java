@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-class Employee {
+class EmployeeClass {
 	private Integer eid;
 	private String ename;
 	private Long esalary;
@@ -18,7 +18,7 @@ class Employee {
 		return "Employee [eid=" + eid + ", ename=" + ename + ", esalary=" + esalary + ", edept=" + edept + "]";
 	}
 
-	public Employee(Integer eid, String ename, Long esalary, String edept) {
+	public EmployeeClass(Integer eid, String ename, Long esalary, String edept) {
 		super();
 		this.eid = eid;
 		this.ename = ename;

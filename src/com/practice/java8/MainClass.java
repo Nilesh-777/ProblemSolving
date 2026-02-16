@@ -4,9 +4,17 @@ import static java.lang.System.out;
 
 import java.util.ArrayList;
 import java.util.List;
-}
 
 public class MainClass {
+
+	private static class Summer implements Calculator {
+
+		@Override
+		public int add(int a, int b) {
+			return a + b;
+		}
+	}
+
 	public static void main(String[] args) {
 		// normal way
 		Calculator calculator = new Summer();
